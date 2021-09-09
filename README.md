@@ -22,10 +22,13 @@ Optional: You can edit LUA parameters and check or uncheck Industry filter. When
   2) Checking/unchecking the 'industryfilter' in LUA parameters will show ONLY industry units (checked) or all elements (unchecked)
   3) The three map panels from the left are 'top view', 'front view', and 'side view' of your core. The white dot represents the core build zone center point
   4) The board is static it does NOT update in real time. It shows the state when activated and the stickers persist until the board is deactivated. If you need to refresh, simply de-activate and activate the board.
+  5) The 'sh' parameter in the LUA parameters is the sticker height over the industry. 3-10 probably works best in most cases, up to your factory design. Likely won't be very useful if you put stuff on the walls however.
   
   **Planned**
-  This is a small portion of a larger project but the visualization is not complete for the larger project using the new LUA screen renderer. A HUD version is planned to show a single view (top, side, front) in a small HUD so you can travel around looking for your misbehaving industry. If there is interest, that can be made to auto-update and possibly show player position in relation to the elements.
+  -This is a small portion of a larger project but the visualization is not complete for the larger project using the new LUA screen renderer. A HUD version is planned to show a single view (top, side, front) in a small HUD so you can travel around looking for your misbehaving industry. If there is interest, that can be made to auto-update and possibly show player position in relation to the elements.
+  
+  -More flexibility in the arrow sticker to handle industry at different angles.
   
   
   **Known Issues**
-  If you have many many many elements you can overload it. The will probably require several thousand elements. However, if you check the industry filter that will probably fix it. If you have enough industry units in a single large core to overload it....well my hat is off to you.
+  If you have many many many elements you can overload it. The will probably require several thousand elements. However, if you check the industry filter that will probably fix it. If you have enough industry units in a single large core to overload it....well my hat is off to you. 
