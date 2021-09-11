@@ -11,7 +11,7 @@ Installation Instructions:
 1) Place a Programming Board on your static consruct, and 1 screen
 3) Copy the entire block of code in the above files (view as "RAW)
 4) In-game, right click on your Programming Board, select 'advanced' and then "Paste LUA Configuration from Clipboard"
-5) In build mode, select your link tool, right click on the Programming board and link FROM the programming board to the core and 1 screen (use 'screen' NOT screen1)
+5) In build mode, select your link tool, right click on the Programming board and link FROM the programming board to the core and 1 screen (use 'screen' NOT screen1)..make sure you select the 'choose OUT link' option and select the named out ports for 'core' and 'screen'. 
 6) Exit build mode and activate the programming board
 
 Optional: You can edit LUA parameters and check or uncheck Industry filter. When checked ONLY industry units will be shown, when unchecked, all core elements will be shown.
